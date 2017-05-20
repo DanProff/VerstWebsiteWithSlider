@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/slider.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+			<span class="tel">123 - 456 - 7890</span>
+			<nav>
+				<ul>
+					<li><a href="contact.html" title="contact">Contact</a></li>
+					<li><a href="portfolio.html" title="portfolio">Portfolio</a></li>
+					<li><a href="services.html" title="services">Services</a></li>
+					<li><a href="about.html" title="about">About</a></li>
+					<li class="current"><a href="index.html" title="home">Home</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="pageblock">
+			<p>We are a dynamic team with innovative ideas for you.</p>	
+			<h1>About Us</h1>
+		</div>
+		<footer>
+			<ul class="top-footer">
+				<li class="browse-site">
+					<h3>Browse Site</h3>
+					<ul>
+						<li><a href="#">About our company</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Our Portfolio</a></li>
+						<li><a href="#">Our Prices</a></li>
+						<li><a href="#">Online quote form</a></li>
+						<li><a href="#">Client Testimonials</a></li>
+					</ul>
+				</li>
+				<li class="our-test">
+					<h3>Our Testimonials</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique tristique lacus in varius. Donec nec vestibulum ligula. Aenean turpis diam, feugiat a luctus in, rhoncus eget risus. Maecenas consequat porttitor dui, vitae consequat massa imperdiet ut. elit ut tempus lobortis, eros leo molestie velit.</p>
+					<span class="bold">Rafi, GraphicsFuel.com</span>
+				</li>
+				<li class="our-blog">
+					<h3>From Our Blog</h3>
+					<p class="date">July 6, 2010</p>
+					<p><span class="blue">Lorem ipsum dolor sit amet, consectetur</span> 
+adipiscing elit. Etiam tristique tristique lacus in varius. Donec nec vestibulum ligula. Aenean turpis diam...</p>
+<p class="date">July 6, 2010</p>
+					<p><span class="blue">Lorem ipsum dolor sit amet, consectetur</span> 
+adipiscing elit. Etiam tristique tristique lacus in varius. Donec nec vestibulum ligula. Aenean turpis diam...</p>
+				</li>
+			</ul>
+			<div class="bottom-footer">
+				<a href="#" class="logo"><img src="img/logo-mini.png" alt="logo"></a>
+				<ul class="social">
+					<li><a href="#" class="twitter"></a></li>
+					<li><a class="in" href="#" class="instagram"></a></li>
+					<li><a class="f" href="#" class="facebook"></a></li>
+				</ul>
+				<p>Copyright © 2010 Business. All rights reserved. Designed by GraphicFuel.com</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
